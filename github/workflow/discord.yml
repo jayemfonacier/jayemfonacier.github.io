@@ -1,0 +1,14 @@
+name: New Release
+
+on: [push]
+
+jobs:
+    build:
+      name: Release
+      runs-on: ubuntu-latest
+      steps:
+        - name: Released
+          uses: actions/hello-world-javascript-action@v1
+          with: 
+            message: "Hi!"
+
