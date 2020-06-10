@@ -10,5 +10,5 @@ jobs:
         - name: Released
           uses: actions/hello-world-javascript-action@v1
           with: 
-            message: "Hi!"
+            message: "Hi hello!"
 
