@@ -17,16 +17,17 @@
             <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
                 <a href="index.html" class="mr-5 hover:text-orange-500">About Me</a>
                 <a href="#" class="mr-5 hover:text-orange-400 text-orange-500">Blog</a>
-                <a href="studying.html" class="mr-5 hover:text-orange-500">Studying</a>
                 <a href="projects.html" class="mr-5 hover:text-orange-500">Projects</a>
+                <a href="studying.html" class="mr-5 hover:text-orange-500">Studying</a>
                 <a href="contact.html" class="mr-5 hover:text-orange-500">Contact</a>
             </nav>
         </div>
     </header>
     <!-- blog -->
     <section class="text-gray-500 bg-gray-900 body-font overflow-hidden">
-        <p class="leading-relaxed text-lg mx-5 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit velit rem magni. Libero quidem, a recusandae praesentium maiores in aut provident quibusdam voluptatem soluta error, amet animi ut corrupti. Sed, odit ex. Fugit consequuntur cum sit doloribus sequi molestias officia?</p>   
+        
         <div class="container px-5 mx-auto">
+            <p class="leading-relaxed text-lg mx-5 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit velit rem magni. Libero quidem, a recusandae praesentium maiores in aut provident quibusdam voluptatem soluta error, amet animi ut corrupti. Sed, odit ex. Fugit consequuntur cum sit doloribus sequi molestias officia?</p>   
             <div class="pb-8 py-2 flex border-t-4 rounded-full border-orange-500 flex-wrap md:flex-no-wrap"></div>
             <div class="-my-8">
                 <div class="text-center pt-8">
@@ -82,6 +83,57 @@
                     </a>
                 </div>
                 </div>
+                <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
+                    <div>
+                    <p class="text-sm leading-5 text-gray-400">
+                        Showing
+                        <span class="font-medium">1
+                        </span>
+                        to
+                        <span class="font-medium">3
+                        </span>
+                        of
+                        <span class="font-medium">10
+                        </span>
+                        results
+                    </p>
+                    </div>
+                    <div>
+                    <nav class="relative z-0 inline-flex shadow-sm"> 
+                        <button type="button" class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-900 text-sm leading-5 font-medium text-white hover:text-orange-500 focus:z-10 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-100 active:text-gray-500 transition ease-in-out duration-150" aria-label="Previous">
+                        <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        </button>
+                        <button type="button" class="-ml-px relative inline-flex items-center px-4 py-2 border border-gray-900 bg-gray-900 text-sm leading-5 font-medium text-gray-400 hover:text-orange-500 focus:z-10 focus:outline-none">
+                        1
+                        </button>
+                        <button type="button" class="-ml-px relative inline-flex items-center px-4 py-2 border border-gray-900 bg-gray-900 text-sm leading-5 font-medium text-gray-400 hover:text-orange-500 focus:z-10 focus:outline-none">
+                        2
+                        </button>
+                        <button type="button" class="hidden md:inline-flex -ml-px relative items-center px-4 py-2 border border-gray-900 bg-gray-900 text-sm leading-5 font-medium text-gray-400 hover:text-orange-500 focus:z-10 focus:outline-none">
+                        3
+                        </button>
+                        <span class="-ml-px relative inline-flex items-center px-4 py-2 border border-gray-900 bg-gray-900 text-sm leading-5 font-medium text-gray-200">
+                        ...
+                        </span>
+                        <button type="button" class="hidden md:inline-flex -ml-px relative items-center px-4 py-2 border border-gray-900 bg-gray-900 text-sm leading-5 font-medium text-white hover:text-orange-500 focus:z-10 focus:outline-none">
+                        8
+                        </button>
+                        <button type="button" class="-ml-px relative inline-flex items-center px-4 py-2 border border-gray-900 bg-gray-900 text-sm leading-5 font-medium text-white hover:text-orange-500 focus:z-10 focus:outline-none">
+                        9
+                        </button>
+                        <button type="button" class="-ml-px relative inline-flex items-center px-4 py-2 border border-gray-900 bg-gray-900 text-sm leading-5 font-medium text-white hover:text-orange-500 focus:z-10 focus:outline-none">
+                        10
+                        </button>
+                        <button type="button" class="-ml-px relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-900 bg-gray-900 text-sm leading-5 font-medium text-white hover:text-orange-500 focus:z-10 focus:outline-none" aria-label="Next">
+                        <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        </button>
+                    </nav>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- component -->
@@ -94,58 +146,8 @@
                 Next
                 </a>
             </div>
-            <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
-                <div>
-                <p class="text-sm leading-5 text-gray-400">
-                    Showing
-                    <span class="font-medium">1
-                    </span>
-                    to
-                    <span class="font-medium">3
-                    </span>
-                    of
-                    <span class="font-medium">10
-                    </span>
-                    results
-                </p>
-                </div>
-                <div>
-                <nav class="relative z-0 inline-flex shadow-sm"> 
-                    <button type="button" class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-900 text-sm leading-5 font-medium text-white hover:text-orange-500 focus:z-10 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-100 active:text-gray-500 transition ease-in-out duration-150" aria-label="Previous">
-                    <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"/>
-                    </svg>
-                    </button>
-                    <button type="button" class="-ml-px relative inline-flex items-center px-4 py-2 border border-gray-900 bg-gray-900 text-sm leading-5 font-medium text-gray-400 hover:text-orange-500 focus:z-10 focus:outline-none">
-                    1
-                    </button>
-                    <button type="button" class="-ml-px relative inline-flex items-center px-4 py-2 border border-gray-900 bg-gray-900 text-sm leading-5 font-medium text-gray-400 hover:text-orange-500 focus:z-10 focus:outline-none">
-                    2
-                    </button>
-                    <button type="button" class="hidden md:inline-flex -ml-px relative items-center px-4 py-2 border border-gray-900 bg-gray-900 text-sm leading-5 font-medium text-gray-400 hover:text-orange-500 focus:z-10 focus:outline-none">
-                    3
-                    </button>
-                    <span class="-ml-px relative inline-flex items-center px-4 py-2 border border-gray-900 bg-gray-900 text-sm leading-5 font-medium text-gray-200">
-                    ...
-                    </span>
-                    <button type="button" class="hidden md:inline-flex -ml-px relative items-center px-4 py-2 border border-gray-900 bg-gray-900 text-sm leading-5 font-medium text-white hover:text-orange-500 focus:z-10 focus:outline-none">
-                    8
-                    </button>
-                    <button type="button" class="-ml-px relative inline-flex items-center px-4 py-2 border border-gray-900 bg-gray-900 text-sm leading-5 font-medium text-white hover:text-orange-500 focus:z-10 focus:outline-none">
-                    9
-                    </button>
-                    <button type="button" class="-ml-px relative inline-flex items-center px-4 py-2 border border-gray-900 bg-gray-900 text-sm leading-5 font-medium text-white hover:text-orange-500 focus:z-10 focus:outline-none">
-                    10
-                    </button>
-                    <button type="button" class="-ml-px relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-900 bg-gray-900 text-sm leading-5 font-medium text-white hover:text-orange-500 focus:z-10 focus:outline-none" aria-label="Next">
-                    <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
-                    </svg>
-                    </button>
-                </nav>
-                </div>
-            </div>
         </div>
+        
     </section>
     <footer class="text-white bg-gray-900 body-font">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
