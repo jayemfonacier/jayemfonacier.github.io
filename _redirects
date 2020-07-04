@@ -1,5 +1,5 @@
 /public/index           /
-/public/blog            /blog/
-/public/contact         /contact/
-/public/projects        /projects/
-/public/studying        /studying/
+/public/blog            /blog
+/public/contact         /contact
+/public/projects        /projects
+/public/studying        /studying
